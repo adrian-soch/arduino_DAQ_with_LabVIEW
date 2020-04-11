@@ -19,7 +19,7 @@ A tutorial on setting up an data acquisition system with an Arduino device and L
 
 ![image](https://user-images.githubusercontent.com/6884645/79050681-b1e6fd80-7bf9-11ea-9dee-9421554ffc41.png)
 
-- Select your the device and follow the steps. 
+- Select your device and follow the steps. 
 
 ![image](https://user-images.githubusercontent.com/6884645/79050740-04281e80-7bfa-11ea-9c26-fcf3327ed741.png)
 
@@ -27,13 +27,13 @@ A tutorial on setting up an data acquisition system with an Arduino device and L
 
 ![image](https://user-images.githubusercontent.com/6884645/79050852-d0012d80-7bfa-11ea-9c22-8dad74e836ec.png)
 
-**If you ran into issue getting to this step try [this](https://www.labviewmakerhub.com/doku.php?id=learn:tutorials:libraries:linx:getting_started), you can also try the LINX Firmware Wizard has a help button or a simple internet search to help you out.**
+**If you ran into issue getting to this step try [this](https://www.labviewmakerhub.com/doku.php?id=learn:tutorials:libraries:linx:getting_started) you can also try the LINX Firmware Wizard *Help* button or a simple internet search to help you out.**
 
 
 ## Test
-- With the LINX Blink(Simple).vi open we are ready to test that the Arduino is communicating correctly with LabVIEW
+- With the LINX Blink(Simple).vi open we are ready to test communication between the Arduino and LabVIEW
 - Select the port connected to your device and press the *Run* arrow at the top right
-- Clicking the green button should turn you built in LED on and off
+- Clicking the green button should turn the built in LED on and off
 -Click *Stop* to end the test
 
 ![image](https://user-images.githubusercontent.com/6884645/79052323-aac4ed00-7c03-11ea-88c0-d077f66befc4.png)
@@ -41,7 +41,7 @@ A tutorial on setting up an data acquisition system with an Arduino device and L
 
 ## Customize
 
-After we have checked that the Arduino communicates with LabVIEW, its time to create our own program. 
+After we have checked that the Arduino communicates with LabVIEW, it's time to create our own program. 
 
 - Begin with an example, go to help/Find Examples
 
@@ -49,7 +49,7 @@ After we have checked that the Arduino communicates with LabVIEW, its time to cr
 
 - Start with the example that is closest to your requirments and build it up from there
 - The Front Panel has gauges and progress bars to visualize the data
-- The Block Diagram I have setup 4 analog pins for reading data and recording to an excel file for analysis.
+- The Block Diagram sets 4 analog pins for reading data and recording to an excel file for analysis.
 
 ![image](https://user-images.githubusercontent.com/6884645/79051700-b0b8cf00-7bff-11ea-9095-5463ef462448.png)
 
